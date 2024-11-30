@@ -1,0 +1,93 @@
+# --- General ---
+.DS_Store
+Thumbs.db
+.idea/
+*.tmp
+*.bak
+*.orig
+*.rej
+*.patch
+*.diff
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# --- Swap files (archivos de respaldo/edición) ---
+*.swp
+*.swo
+*.swn
+
+# --- Node.js (aplica tanto para frontend como backend) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# --- TypeScript ---
+dist/
+build/
+*.tsbuildinfo
+*.d.ts
+
+# --- Next.js (Frontend específico) ---
+.next/
+out/
+.cache
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs ---
+logs/
+*.log
+logs/**/*.log
+
+# --- Entornos ---
+.env
+.env.*.local
+
+# --- OS Files (Archivos específicos de sistemas operativos) ---
+.DS_Store
+Thumbs.db
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Vercel (Despliegue) ---
+.vercel
+
+# --- Producción ---
+/build
+
+# --- Cobertura de Pruebas ---
+coverage/
+
+# --- Archivos de depuración ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Dependencias (Yarn PnP) ---
+/.pnp
+.pnp.*
+
+# --- Archivos de parches (Yarn) ---
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# --- Archivos de llaves y certificados ---
+*.pem
+
+# --- Archivos relacionados con Next.js ---
+next-env.d.ts
+
+# --- Otros archivos generados ---
+*.lock
